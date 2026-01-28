@@ -10,6 +10,8 @@ Created on Wed Jan 28 11:25:37 2026
 
 @author: mfund
 """
+!pip install plotly
+
 import streamlit as st
 import plotly.express as px
 import pandas as pd
@@ -24,5 +26,6 @@ data = pd.DataFrame({'x':[1,2,3], 'y':[10, 20,30]})
 st.write(data)
 st.dataframe(data)
 fig = px.line(data, x='x', y='y', title = 'Simple PLatly Example')
+
 
 st.plotly_chart(fig)
