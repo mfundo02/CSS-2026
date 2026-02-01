@@ -119,8 +119,3 @@ st.header("Contact Information")
 email = "mfundoshabalala709@gmail.com"
 st.write(f"You can reach {name} at {email}.")
 
-
-
-
-str
-
