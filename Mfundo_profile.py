@@ -47,7 +47,7 @@ I am an MSc student in Astronomy at the University of the Western Cape (UWC), wi
 
 st.subheader('Current project')
 st.write("""**Multiwavelength counterparts of MeerKLASS radio sources
-- Cross-matching MeerKLASS with KiDS, GALEX, VIKING, and WISE using a pipline I'm developing
+- Cross-matching MeerKLASS with KiDS, GALEX, VIKING, and WISE using a pipline I'm developing, and it could be found at: https://github.com/mfundo02/cross-matching
 - Building a unified multiwavelength catalogue
 - Separating AGN and star-forming galaxies
 - Performing SED fitting using AGNfitter
@@ -121,4 +121,6 @@ st.write(f"You can reach {name} at {email}.")
 
 
 
+
 str
+
